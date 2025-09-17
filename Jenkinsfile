@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USERNAME = 'your-dockerhub-username'
+        DOCKERHUB_USERNAME = 'yuvrajdevs'
         IMAGE_NAME = "${DOCKERHUB_USERNAME}/jenkins-project"
         IMAGE_TAG = "build-${BUILD_NUMBER}"
     }
